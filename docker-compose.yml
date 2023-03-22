@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    user: "root"
+    tty: true
+    build: .
+    volumes:
+      - type: bind
+        source: .
+        target: /app
+    working_dir: /app
+    command: bash -c "poetry install && bash"

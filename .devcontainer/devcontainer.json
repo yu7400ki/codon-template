@@ -1,0 +1,20 @@
+{
+    "name": "Codon Template",
+    "service": "app",
+    "workspaceFolder": "/app",
+    "dockerComposeFile": "../docker-compose.yml",
+    "remoteUser": "root",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "oderwat.indent-rainbow",
+                "ms-azuretools.vscode-docker",
+                "njpwerner.autodocstring",
+                "streetsidesoftware.code-spell-checker",
+                "GitHub.copilot"
+            ]
+        }
+    }
+}
